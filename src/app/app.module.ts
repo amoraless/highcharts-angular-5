@@ -4,13 +4,17 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+// modulo de highcharts
+import { ChartModule } from 'angular-highcharts';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    
+    ChartModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
